@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Phua Family//Wei Rong 30th Day//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:weirong-30thday-20261126@phua-family
+DTSTAMP:20261125T140000Z
+DTSTART:20261126T053000Z
+DTEND:20261126T120000Z
+SUMMARY:Phua Wei Rong 潘蔚荣 · 30th Day Celebration 满月之喜
+LOCATION:Blk 855 Woodlands St 83\, #10-70\, Singapore 730855
+DESCRIPTION:Come meet baby Wei Rong! Drop by any time 1:30 – 8:00 PM.\nhttps://tzuchi-singapore.github.io/Phua-Wei-Rong-30th-day-celebration/
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Wei Rong 30th Day Celebration
+END:VALARM
+END:VEVENT
+END:VCALENDAR
