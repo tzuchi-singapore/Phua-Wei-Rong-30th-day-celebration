@@ -697,11 +697,11 @@ function openWA(msg){
 }
 $('rsvpGo').addEventListener('click',e=>{
   const r=e.currentTarget.getBoundingClientRect(); burst(r.left+r.width/2,r.top,70,6);
-  openWA("Hi! 🌕 I'm going to Phua Wei Rong's 30th Day Celebration 🎉\n我会出席蔚荣的满月之喜！\n\nName 姓名: \nNo. of guests 人数: \nArrival time 到达时间: ");
+  openWA("Hi! 🌕 I'm going to Phua Wei Rong's 30th Day Celebration 🎉\n我会出席蔚荣的满月之喜！\n\n📅 Thu, 26 Nov 2026 (星期四) · 1:30 PM – 8:00 PM\n📍 Blk 855 Woodlands St 83, #10-70, Singapore 730855\n\nName 姓名: \nNo. of guests 人数: \nArrival time 到达时间: ");
   openSheet('See you there! 🎉','Your WhatsApp message is ready — just key in your arrival time and send.<br>Now add the date to your phone calendar:<span class="zh">请在 WhatsApp 填写到达时间并发送，再将日期加入手机日历。</span>');
 });
 $('rsvpNo').addEventListener('click',()=>{
-  openWA("Hi! 🤍 Sorry I can't make it to Wei Rong's 30th Day Celebration, but sending my warmest blessings!\n抱歉无法出席，祝蔚荣健康快乐、平安长大！\n\nName 姓名: \nBlessing 祝福: ");
+  openWA("Hi! 🤍 Sorry I can't make it to Wei Rong's 30th Day Celebration (Thu, 26 Nov 2026), but sending my warmest blessings!\n抱歉无法出席，祝蔚荣健康快乐、平安长大！\n\nName 姓名: \nBlessing 祝福: ");
 });
 $('share').addEventListener('click',async()=>{
   const data={title:TITLE,text:"You're invited to Phua Wei Rong's 30th Day Celebration 🌕 Thu 26 Nov · 1:30–8:00 PM",url:location.href};
